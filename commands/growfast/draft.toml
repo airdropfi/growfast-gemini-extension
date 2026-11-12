@@ -1,0 +1,8 @@
+description = "Draft first emails to named decision-makers for chosen companies (nothing is sent)"
+prompt = """
+Draft first outreach emails. The user's request: {{args}}
+
+1. You need the seller (product name and a one or two sentence value proposition; a prior `scan_domain` result has these) and the companies, at most 10, each with a company name and a contact address the company publishes. If anything is missing, ask for it. Never invent an address.
+2. Tell the user this takes 10-60 seconds, then call `draft_outreach_emails`.
+3. Show each company with the decision-maker GrowFast found (when the site names one) and the draft. Say plainly that nothing was sent and nothing was saved: the user edits the drafts and sends them from https://growfast.sh.
+"""

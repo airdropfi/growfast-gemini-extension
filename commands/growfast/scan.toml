@@ -1,0 +1,10 @@
+description = "Scan a product's website and list the best-fit customers (saves the scan)"
+prompt = """
+Scan the product at the domain the user gave: {{args}}
+
+If no domain was given, ask for one and stop.
+
+1. Tell the user that scanning takes about 30 seconds and saves the scan to their GrowFast account, then call `scan_domain` with the domain.
+2. Report, exactly as returned: the ideal customer profile, the drafted first email and each fitting company with its 1-10 score and the reason.
+3. Offer the next step: pick companies to draft emails for (`/growfast:draft`). Do not send or post anything; GrowFast sends from https://growfast.sh.
+"""

@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "growfast": {
+      "serverUrl": "https://growfast.sh/api/mcp",
+      "disabledTools": [
+        "send_reply",
+        "set_autopilot",
+        "find_companies",
+        "research_company"
+      ]
+    }
+  }
+}

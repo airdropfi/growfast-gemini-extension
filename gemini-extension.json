@@ -1,0 +1,17 @@
+{
+  "name": "growfast",
+  "version": "1.0.0",
+  "description": "Scan a product's website, draft outreach emails to named decision-makers and set up Reddit listening on your GrowFast account from Gemini CLI. Nothing is sent or posted.",
+  "contextFileName": "GEMINI.md",
+  "mcpServers": {
+    "growfast": {
+      "httpUrl": "https://growfast.sh/api/mcp",
+      "excludeTools": [
+        "send_reply",
+        "set_autopilot",
+        "find_companies",
+        "research_company"
+      ]
+    }
+  }
+}

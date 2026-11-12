@@ -1,0 +1,28 @@
+{
+  "$schema": "https://antigravity.google/schemas/v1/plugin.json",
+  "name": "growfast",
+  "displayName": "GrowFast",
+  "version": "1.0.0",
+  "description": "Scan a product's website, draft outreach emails to named decision-makers and set up Reddit listening on your GrowFast account. Nothing is sent or posted.",
+  "logo": "assets/icon.png",
+  "suggestedPrompts": [
+    "Scan growfast.sh and tell me who its ideal customers are, with the 5 best-fit companies",
+    "Draft a first email to the founders of the top 2 companies from that scan. Don't send anything",
+    "Which products am I listening for on Reddit, and what are the newest posts?"
+  ],
+  "author": {
+    "name": "GrowFast",
+    "url": "https://growfast.sh"
+  },
+  "homepage": "https://growfast.sh/docs",
+  "repository": "https://github.com/airdropfi/growfast-gemini-extension",
+  "license": "MIT",
+  "keywords": [
+    "lead-generation",
+    "outreach",
+    "cold-email",
+    "reddit",
+    "mcp",
+    "growfast"
+  ]
+}
