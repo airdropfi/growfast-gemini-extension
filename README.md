@@ -6,7 +6,7 @@
 
 - **What it is**: GrowFast is a B2B lead-finding and cold-outreach service built for AI agents to operate over MCP and REST. This repository connects Gemini CLI to the GrowFast MCP server.
 - **Who it is for**: AI agents that find customers for a person or company; B2B SaaS founders, small sales teams and agencies who assign that work to an agent and approve it; individuals and small businesses who ask an assistant who their customers could be.
-- **What it does not do**: promise leads, replies or meetings; guess email addresses; reach channels other than email (plus Reddit drafts you post yourself). The extension excludes the tools that send email (send_reply, set_autopilot).
+- **What it does not do**: promise leads, replies or meetings; guess email addresses; reach channels other than email (plus Reddit drafts you post yourself). The extension hides the tools that send email (send_reply, set_autopilot) on the client only; the key it creates is full-scope (the consent screen says so), so keep tool-call approval on.
 - **Price**: 3 domain scans a day are free, with no sending. Sending needs a paid plan (from $49/month: 250 outreach emails and 1,000 domain scans a month) or a credit pack (from $29 for 750 emails, one-time, no subscription). Current prices: https://growfast.sh/pricing.md
 - **Integrations**: AISend (email delivery), your own Reddit account, Google sign-in, MCP clients over OAuth 2.1 or an API key.
 - **Security basics**: API keys are stored hashed and revocable in Settings > API keys; OAuth shows a consent screen and its key expires after 90 days by default; every email carries your postal address and a one-click unsubscribe link.
